@@ -18,6 +18,8 @@ body{
     align-items: center;
     min-height:100vh;
     background: var(--background);
+    max-width:100vw;
+    overflow:hidden;
 }
 
 .card{
@@ -31,8 +33,8 @@ body{
 
 .shinchan{
     position:absolute;
-    top:53%;
-    left:49%;
+    top:50%;
+    left:45%;
     transform: translate(-50%,-50%);
 }
 
@@ -179,7 +181,7 @@ body{
     left:21.5rem;
 }
 
-@media screen and (min-width: 31.25rem) {
+@media screen and (min-width: 37.5rem) {
     .card{
         width:40rem;
         height:40rem;
@@ -193,5 +195,11 @@ body{
         background: #14279B;
         box-shadow: inset 13px 13px 26px #0e1c70,
                 inset -13px -13px 26px #1a32c6;
+    }
+    .shinchan{
+        position:absolute;
+        top:53%;
+        left:49%;
+        transform: translate(-50%,-50%);
     }
 }
