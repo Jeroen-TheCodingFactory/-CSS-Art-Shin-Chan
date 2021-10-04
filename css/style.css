@@ -1,0 +1,51 @@
+*,*::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.shinchan{
+
+}
+
+.shinchan__head{
+    position:relative;
+}
+
+.shinchan__headTop{
+    height:13rem;
+    width:27rem;
+    background:#FAEEE0;
+    position:absolute;
+    right:4.6%;
+    top: -75%;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    border: 0.3rem solid black;
+    border-bottom: none;
+    transform:rotate(-7deg);
+}
+
+
+
+.shinchan__headBottom{
+    height:17rem;
+    width:38rem;
+    background:#FAEEE0;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    border:0.3rem solid black;
+    border-top: none;
+    transform:rotate(-7deg);
+}
