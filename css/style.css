@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+:root{
+    --skin-color: rgb(246, 219, 199);
+}
 html{
     font-size: 62.5%;
 }
@@ -24,17 +27,18 @@ body{
 }
 
 .shinchan__headTop{
-    height:10rem;
+    height:8rem;
     width:27rem;
-    background:#FAEEE0;
+    background:var(--skin-color);
     position:absolute;
     right:0%;
-    top: -58%;
+    top: -47%;
     border: 0.3rem solid black;
     border-bottom: none;
-    border-top-left-radius: 10rem;
-    border-top-right-radius: 8rem;
+    border-top-left-radius: 50rem;
+    border-top-right-radius: 44rem;
 }
+
 
 .shinchan__topHear{
     height:20rem;
@@ -42,31 +46,30 @@ body{
     border-top-left-radius: 30rem;
     border-top-right-radius: 30rem;
     position:absolute;
-    right:-9%;
-    top: -70%;
+    right:-3%;
+    top: -53%;
     background: black;
     z-index: -1;
-    transform: rotate(10deg) scale(1.2);
+    transform: rotate(-10deg) scale(1.2);
     
 }
 
-
 .shinchan__headBottom{
     height:17rem;
-    width:38rem;
-    background:#FAEEE0;
-    border-top-left-radius: 20rem;
-    border-bottom-left-radius: 20rem;
+    width:36rem;
+    background:var(--skin-color);;
+    border-top-left-radius: 40rem;
+    border-bottom-left-radius: 40rem;
     border:0.3rem solid black;
     border-top: none;
 }
 
 .shinchan__ear{
-    background: #FAEEE0;
+    background: var(--skin-color);
     height: 12rem;
     border-radius: 50%;
     width: 10rem;
-    left:36rem;
+    left:34rem;
     top:5rem;
     position:absolute;
     border:0.3rem solid black;
@@ -76,4 +79,73 @@ body{
 
 .shinchan__ear > path{
     border: 0.3rem solid black;
+}
+
+.shinchan__eye{
+    height: 7rem;
+    width:7rem;
+    background:black;
+    position:absolute;
+    border-bottom-right-radius:49%;
+    border-top-right-radius:48%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 48%;
+    top:0%;
+}
+
+.shinchan__eye::before{
+    content:"";
+    height:40%;
+    width:45%;
+    position:absolute;
+    background: white;
+    top:50%;
+    left:50%;
+    transform: translate(-40%,-50%);
+    border-radius:50%;
+    border-top-right-radius:40%;
+    border-bottom-left-radius: 40%;
+  
+}
+
+.shinchan__eye--left{
+    left:40%;
+}
+
+.shinchan__eye--right{
+    right:10%;
+}
+
+.shinchan__mouth{
+    height: 8rem;
+    width: 6rem;
+    position:absolute;
+    background:#B26261;
+    border-radius: 50%;
+    border:0.3rem solid black;
+    top:9rem;
+    left:7rem;
+    transform: rotate(20deg);
+}
+
+.shinchan__brow{
+    position:absolute;
+    width: 8rem;
+    height:8rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
+    border-top: 0.3rem solid black;
+    border-radius:50%;
+  
+}
+
+.shinchan__brow--left{
+    top:-3rem;
+    left:12rem;
+    transform:rotate(4deg);
+}
+
+.shinchan__brow--right{
+    top:-3rem;
+    right:4rem;
+    transform:rotate(4deg);
 }
