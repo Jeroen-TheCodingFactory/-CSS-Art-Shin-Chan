@@ -28,15 +28,27 @@ body{
     width:27rem;
     background:#FAEEE0;
     position:absolute;
-    right:4.6%;
+    right:0%;
     top: -75%;
     border-top-left-radius: 30rem;
-    border-top-right-radius: 30rem;
+    border-top-right-radius: 3rem 20rem;
     border: 0.3rem solid black;
     border-bottom: none;
-    transform:rotate(-7deg);
 }
 
+.shinchan__topHear{
+    height:13rem;
+    width:27rem;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    position:absolute;
+    right:-11%;
+    top: -80%;
+    background: black;
+    z-index: -1;
+    transform: rotate(10deg) scale(1.2);
+    
+}
 
 
 .shinchan__headBottom{
@@ -47,5 +59,4 @@ body{
     border-bottom-left-radius: 20rem;
     border:0.3rem solid black;
     border-top: none;
-    transform:rotate(-7deg);
 }
