@@ -27,16 +27,16 @@ body{
 }
 
 .shinchan__headTop{
-    height:8rem;
+    height:12rem;
     width:27rem;
     background:var(--skin-color);
     position:absolute;
     right:0%;
-    top: -47%;
+    top: -60%;
     border: 0.3rem solid black;
     border-bottom: none;
-    border-top-left-radius: 50rem;
-    border-top-right-radius: 44rem;
+    border-top-left-radius: 55rem;
+    border-top-right-radius: 50rem;
 }
 
 
@@ -46,8 +46,8 @@ body{
     border-top-left-radius: 30rem;
     border-top-right-radius: 30rem;
     position:absolute;
-    right:-3%;
-    top: -53%;
+    right:-5%;
+    top: -60%;
     background: black;
     z-index: -1;
     transform: rotate(-10deg) scale(1.2);
@@ -90,7 +90,7 @@ body{
     border-top-right-radius:48%;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 48%;
-    top:0%;
+    top:-15%;
 }
 
 .shinchan__eye::before{
@@ -135,17 +135,17 @@ body{
     clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
     border-top: 0.3rem solid black;
     border-radius:50%;
+    top:-5rem;
+
   
 }
 
 .shinchan__brow--left{
-    top:-3rem;
     left:12rem;
     transform:rotate(4deg);
 }
 
 .shinchan__brow--right{
-    top:-3rem;
     right:4rem;
     transform:rotate(4deg);
 }
