@@ -10,3 +10,7 @@ button.onclick = (event) => {
     document.title = "Shin Chan";
     audio.pause();
 }
+
+audio.onended = (event) => {
+    document.title = "Shin Chan!";
+}
