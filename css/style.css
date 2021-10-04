@@ -19,7 +19,7 @@ body{
 }
 
 .shinchan{
-
+    
 }
 
 .shinchan__head{
@@ -31,12 +31,13 @@ body{
     width:27rem;
     background:var(--skin-color);
     position:absolute;
-    right:0%;
+    right:5.8%;
     top: -60%;
     border: 0.3rem solid black;
     border-bottom: none;
     border-top-left-radius: 55rem;
     border-top-right-radius: 50rem;
+    transform: rotate(-10deg);
 }
 
 
@@ -46,12 +47,11 @@ body{
     border-top-left-radius: 30rem;
     border-top-right-radius: 30rem;
     position:absolute;
-    right:-5%;
+    right:-2%;
     top: -60%;
     background: black;
     z-index: -1;
     transform: rotate(-10deg) scale(1.2);
-    
 }
 
 .shinchan__headBottom{
@@ -62,6 +62,7 @@ body{
     border-bottom-left-radius: 40rem;
     border:0.3rem solid black;
     border-top: none;
+    transform: rotate(-10deg);
 }
 
 .shinchan__ear{
@@ -69,8 +70,8 @@ body{
     height: 12rem;
     border-radius: 50%;
     width: 10rem;
-    left:34rem;
-    top:5rem;
+    left:33rem;
+    top:3rem;
     position:absolute;
     border:0.3rem solid black;
     transform: rotate(0deg);
@@ -91,6 +92,7 @@ body{
     border-bottom-left-radius: 50%;
     border-top-left-radius: 48%;
     top:-15%;
+    transform:skewX(-3deg);
 }
 
 .shinchan__eye::before{
@@ -109,7 +111,7 @@ body{
 }
 
 .shinchan__eye--left{
-    left:40%;
+    left:35%;
 }
 
 .shinchan__eye--right{
@@ -123,7 +125,7 @@ body{
     background:#B26261;
     border-radius: 50%;
     border:0.3rem solid black;
-    top:10rem;
+    top:12rem;
     left:7rem;
     transform: rotate(20deg);
 }
@@ -139,7 +141,7 @@ body{
 }
 
 .shinchan__brow--left{
-    left:12rem;
+    left:11rem;
     transform:rotate(4deg);
 }
 
@@ -149,20 +151,20 @@ body{
 }
 
 .shinchan__bigBrow{
-    width: 7rem;
-    height:7rem;
+    width: 8rem;
+    height:8rem;
     position:absolute;
     border: 1.8rem solid black;
     border-radius: 2rem;
     clip-path: polygon(0% 0%, 85% 0%, 0% 85%);
-    top:-50%;
+    top:-48%;
     transform:rotate(45deg);
 }
 
 .shinchan__bigBrow--left{
-    left:12rem;
+    left:11rem;
 }
 
 .shinchan__bigBrow--right{
-    left:25rem;
+    left:24rem;
 }
