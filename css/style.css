@@ -5,7 +5,7 @@
 }
 
 :root{
-    --skin-color: rgb(246, 219, 199);
+    --skin-color: #f1d1ab;
     --background: #14279B;
 }
 html{
@@ -23,11 +23,20 @@ body{
 .card{
     width:40rem;
     height:40rem;
-    background: linear-gradient(145deg, #152aa6, #12238c);
-    border-radius:5rem;
-    box-shadow:  13px 13px 26px #122288,
-    -13px -13px 26px #162cae;
+    background: linear-gradient(145deg, #152aa6, #12238c);    border-radius:5rem;
+    box-shadow: 13px 13px 26px #0e1c70,
+             -13px -13px 26px #1a32c6;
+    transition: 0.2s all;
+}
 
+.card:hover{
+    cursor:pointer;
+}
+
+.card:active{
+    background: #14279B;
+    box-shadow: inset 13px 13px 26px #0e1c70,
+            inset -13px -13px 26px #1a32c6;
 }
 .shinchan{
     position:absolute;
