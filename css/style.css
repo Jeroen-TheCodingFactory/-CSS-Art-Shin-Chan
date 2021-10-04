@@ -6,6 +6,7 @@
 
 :root{
     --skin-color: rgb(246, 219, 199);
+    --background: #14279B;
 }
 html{
     font-size: 62.5%;
@@ -16,14 +17,28 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
+    background: var(--background);
 }
 
+.card{
+    width:40rem;
+    height:40rem;
+    background: linear-gradient(145deg, #152aa6, #12238c);
+    border-radius:5rem;
+    box-shadow:  13px 13px 26px #122288,
+    -13px -13px 26px #162cae;
+
+}
 .shinchan{
-    transform: scale(1);
+    position:absolute;
+    top:53%;
+    left:49%;
+    transform: translate(-50%,-50%);
 }
 
 .shinchan__head{
     position:relative;
+    transform: scale(0.8);
 }
 
 .shinchan__headTop{
