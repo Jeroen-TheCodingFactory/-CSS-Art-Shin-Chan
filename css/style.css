@@ -40,7 +40,7 @@ body{
 
 .shinchan__head{
     position:relative;
-    transform: scale(0.8);
+    transform: scale(0.6);
 }
 
 .shinchan__headTop{
@@ -182,6 +182,13 @@ body{
     left:21.5rem;
 }
 
+@media screen and (min-width:50rem){
+.shinchan__head{
+    position:relative;
+    transform: scale(0.8);
+}
+
+}
 @media screen and (min-width: 62.5rem) {
     .card{
         width:40rem;
