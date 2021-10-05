@@ -33,9 +33,9 @@ body{
 
 .shinchan{
     position:absolute;
-    top:50%;
-    left:45%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left:50%;
+    transform:translate(-58%,-30%);
 }
 
 .shinchan__head{
@@ -161,23 +161,18 @@ body{
     transform:rotate(4deg);
 }
 
-.shinchan__bigBrow{
-    display:none;
-}
-
-@supports(clip-path: polygon(0% 0%, 85% 0%, 0% 85%)){
-    .shinchan__bigBrow{
+ .shinchan__bigBrow{
         display:block;
         width: 8.5rem;
         height:8.5rem;
         position:absolute;
         border: 2rem solid black;
         border-radius: 2rem;
+        -webkit-clip-path: polygon(0% 0%, 85% 0%, 0% 85%);
         clip-path: polygon(0% 0%, 85% 0%, 0% 85%);
         top:-55%;
         transform:rotate(45deg);
     }
-}
 
 .shinchan__bigBrow--left{
     left:10rem;
@@ -201,11 +196,5 @@ body{
         background: #14279B;
         box-shadow: inset 13px 13px 26px #0e1c70,
                 inset -13px -13px 26px #1a32c6;
-    }
-    .shinchan{
-        position:absolute;
-        top:53%;
-        left:49%;
-        transform: translate(-50%,-50%);
     }
 }
