@@ -146,7 +146,6 @@ body{
     position:absolute;
     width: 8rem;
     height:8rem;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
     border-top: 0.3rem solid black;
     border-radius:50%;
     top:-5rem;
@@ -163,14 +162,21 @@ body{
 }
 
 .shinchan__bigBrow{
-    width: 8.5rem;
-    height:8.5rem;
-    position:absolute;
-    border: 2rem solid black;
-    border-radius: 2rem;
-    clip-path: polygon(0% 0%, 85% 0%, 0% 85%);
-    top:-55%;
-    transform:rotate(45deg);
+    display:none;
+}
+
+@supports(clip-path: polygon(0% 0%, 85% 0%, 0% 85%)){
+    .shinchan__bigBrow{
+        display:block;
+        width: 8.5rem;
+        height:8.5rem;
+        position:absolute;
+        border: 2rem solid black;
+        border-radius: 2rem;
+        clip-path: polygon(0% 0%, 85% 0%, 0% 85%);
+        top:-55%;
+        transform:rotate(45deg);
+    }
 }
 
 .shinchan__bigBrow--left{
@@ -181,7 +187,7 @@ body{
     left:21.5rem;
 }
 
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 62.5rem) {
     .card{
         width:40rem;
         height:40rem;
