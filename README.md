@@ -15,7 +15,7 @@ De rechten van Shin-chan behoren tot de rechtmatige eigenaar, alle rechten voorb
 2. Hoe een kleine aanpassing aan border-radius op alle 4 de zijdes een speelser effect kan geven.
 3. Je kan een < audio> in een HTML document zetten en afspelen met JavaScript. 
 4. Je kan checken of een < audio> aan het spelen is of niet door simpele properties te checken in een if-statement.
-5. Je kan een onended (en andere events) toevoegen op een < saudio>.
+5. Je kan een onended (en andere events) toevoegen op een < audio>.
 6. Hoe de intensity van een lichte en donkere schaduw een neomorphism element zichtbaarder maken. 
 
 ## Screenshots
