@@ -17,6 +17,7 @@ De rechten van Shin-chan behoren tot de rechtmatige eigenaar, alle rechten voorb
 4. Je kan checken of een < audio> aan het spelen is of niet door simpele properties te checken in een if-statement.
 5. Je kan een onended (en andere events) toevoegen op een < audio>.
 6. Hoe de intensity van een lichte en donkere schaduw een neomorphism element zichtbaarder maken. 
+7. Dat clip-path door oudere versies van Safari en oudere versies van IOS niet ondersteund wordt. Om dit te laten werken is de -webkit- prefix nodig. 
 
 ## Screenshots
 Twee screenshots van het eindproduct zijn hieronder te zien.
@@ -26,3 +27,13 @@ Twee screenshots van het eindproduct zijn hieronder te zien.
 
 ### Mobile
 ![Het gerealiseerde eindproduct op mobile: Shin-chan in HTML en CSS](https://vettedingenbouwen.nl/img/shinchan_mobile.png "Shin-chan")
+
+## Live demo
+https://vettedingenbouwen.nl/shinchan
+
+## Resources 
+Dé resource als je over Neumorphism wilt leren. Geschreven door één van mijn favoriete designers "Michal MaleWisz". https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6
+
+Een ander goed artikel over Neumorphism. https://www.justinmind.com/blog/neumorphism-ui/
+
+Een zeer handige generator voor het Neumorphism effect. <b> Buy him a coffee ;)! </b> https://neumorphism.io/#e0e0e0
