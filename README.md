@@ -1,5 +1,5 @@
 # Shin-chan
-[![Het gerealiseerde eindproduct op desktop](https://shin-chan.css-art.nl/img/shinchan.png)](https://shin-chan.css-art.nl/video/shinchan/promo.mp4) 
+[![Het gerealiseerde eindproduct op desktop](https://shin-chan.css-art.nl/img/shinchan.png)](https://shin-chan.css-art.nl/video/promo.mp4) 
 <i>Klik op de video hierboven voor een demo!</i>
 
 Shin-chan is puur als oefening en voor de lol nagemaakt in HTML en CSS. Daarnaast hoor je de originele themesong in het Nederlands. Shin-chan is voor mij een serie die ik altijd in mijn hart zal dragen. Het was super grappig, super leuk en over de top. Het was een eer om één van mijn cartoon-helden na te kunnen maken :) Bedankt voor al het lachen Shin-chan! 
