@@ -1,5 +1,5 @@
 # Shin-chan
-[![Het gerealiseerde eindproduct op desktop](https://vettedingenbouwen.nl/img/shinchan.png)](https://vettedingenbouwen.nl/video/shinchan/promo.mp4) 
+[![Het gerealiseerde eindproduct op desktop](https://shin-chan.css-art.nl/img/shinchan.png)](https://shin-chan.css-art.nl/video/shinchan/promo.mp4) 
 <i>Klik op de video hierboven voor een demo!</i>
 
 Shin-chan is puur als oefening en voor de lol nagemaakt in HTML en CSS. Daarnaast hoor je de originele themesong in het Nederlands. Shin-chan is voor mij een serie die ik altijd in mijn hart zal dragen. Het was super grappig, super leuk en over de top. Het was een eer om één van mijn cartoon-helden na te kunnen maken :) Bedankt voor al het lachen Shin-chan! 
@@ -23,13 +23,13 @@ De rechten van Shin-chan behoren tot de rechtmatige eigenaar, alle rechten voorb
 Twee screenshots van het eindproduct zijn hieronder te zien.
 
 ### Desktop
-![Het gerealiseerde eindproduct op desktop: Shin-chan in HTML en CSS](https://vettedingenbouwen.nl/img/shinchan.png "Shin-chan")
+![Het gerealiseerde eindproduct op desktop: Shin-chan in HTML en CSS](https://shin-chan.css-art.nl/img/shinchan.png "Shin-chan")
 
 ### Mobile
-![Het gerealiseerde eindproduct op mobile: Shin-chan in HTML en CSS](https://vettedingenbouwen.nl/img/shinchan_mobile.png "Shin-chan")
+![Het gerealiseerde eindproduct op mobile: Shin-chan in HTML en CSS](https://shin-chan.css-art.nl/img/shinchan_mobile.png "Shin-chan")
 
 ## Live demo
-https://vettedingenbouwen.nl/shinchan
+https://shin-chan.css-art.nl
 
 ## Resources 
 Dé resource als je over Neumorphism wilt leren. Geschreven door één van mijn favoriete designers "Michal MaleWisz". https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6
